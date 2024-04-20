@@ -1,5 +1,9 @@
 ---
 type: 'bookcase'
+outputs:
+- html
+- rss
+- json
 ---
 
 Exemplo de Documentação para Projeto Web utilizando Hugo. 

@@ -2,7 +2,6 @@
 title: "Assinatura de Rotas"
 type: 'blank'
 date: 2021-02-06
-search_hidden: true
 ---
 
 ## Login Auth
