@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://simple-hugo.netlify.app/'
 languageCode = 'en-us'
 title = 'Modelo Documentação Simples'
 theme = "hugo-theme-monochrome"

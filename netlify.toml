@@ -1,7 +1,7 @@
-HUGO_VERSION = "0.124.0"
+HUGO_VERSION = "0.125.1"
 DART_SASS_VERSION = "1.72.0"
-TZ = "America/Los_Angeles"
+TZ = "America/Sao_Paulo"
 
 [build]
 publish = "public"
-command = "hugo --gc --minify --forceSyncStatic --verbose"
+command = "hugo --gc --minify --forceSyncStatic"
