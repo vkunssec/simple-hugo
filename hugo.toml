@@ -1,0 +1,45 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Modelo Documentação Simples'
+theme = "hugo-theme-monochrome"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+enable_site_search = true
+color_scheme = "dark"
+footer = "vkunssec ©"
+
+# enable_toc = false
+enable_collapsible_toc = true
+# enable_collapsible_changelogs = true
+
+
+[[menu.navbar]]
+identifier = "home"
+name = "Página Principal"
+url = "/"
+weight = 1
+[[menu.navbar]]
+identifier = "auth"
+name = "Autenticação"
+url = "/auth/"
+weight = 2
+[[menu.navbar]]
+identifier = "auth_routes"
+name = "Assinatura de Rotas"
+url = "/auth/routes/"
+parent = "auth"
+weight = 3
+[[menu.navbar]]
+identifier = "user"
+name = "Usuário"
+url = "/user/"
+weight = 2
+[[menu.navbar]]
+identifier = "user_routes"
+name = "Assinatura de Rotas"
+url = "/user/routes/"
+parent = "user"
+weight = 3
